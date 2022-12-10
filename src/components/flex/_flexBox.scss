@@ -1,0 +1,11 @@
+.flexBox {
+  display: flex;
+}
+
+.flexBox--spacingS {
+  margin: 0 (-$sizeS);
+
+  & > .flexItem {
+    margin: 0 $sizeS;
+  }
+}

@@ -1,0 +1,8 @@
+@import 'globalStyling/index';
+@import 'components/index';
+
+.flexboxLayout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 890px;
+}

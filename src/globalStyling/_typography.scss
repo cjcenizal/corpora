@@ -1,0 +1,13 @@
+$textScale:      2.25, 1.75, 1.25, 1.125, 1, .875, .75 !default;
+
+$fontSize:       $size !default; // 5th position in scale
+$fontSizeXS:     $fontSize * nth($textScale, 7) !default; // 12px
+$fontSizeS:      $fontSize * nth($textScale, 6) !default; // 14px
+$fontSizeM:      $fontSize * nth($textScale, 4) !default; // 18px
+$fontSizeL:      $fontSize * nth($textScale, 3) !default; // 20px
+$fontSizeXL:     $fontSize * nth($textScale, 2) !default; // 28px
+$fontSizeXXL:    $fontSize * nth($textScale, 1) !default; // 36px
+
+p {
+  font-size: $fontSizeS;
+}
